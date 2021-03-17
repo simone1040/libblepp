@@ -29,11 +29,7 @@ set(SRC
     ${HEADERS})
 
 set(EXAMPLES
-    examples/lescan.cc
-    examples/blelogger.cc
-    examples/bluetooth.cc
-    examples/lescan_simple.cc
-    examples/temperature.cc)
+    examples/scan_advertise.cc)
 
 set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake/modules)
 
